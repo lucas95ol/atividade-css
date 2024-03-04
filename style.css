@@ -1,0 +1,63 @@
+body{
+    width: 80vw; 
+    height: 80vh; 
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+}
+
+.caixa-A{
+    width: 500px; 
+    height: 220px;
+    border: 2px solid #000; 
+    border-radius: 10px; 
+    padding: 10px; 
+    background-color: #FFFF00;
+    cursor:pointer;
+}
+
+.caixa-A:hover{
+    background-color: #FFA500;
+}
+
+.caixa-B{
+    width: 100px;
+    padding: 5px;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.paragrafo {
+    color: #FFF;
+    font-style: italic;
+}
+
+.caixa-D{
+    width: 50%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    border-radius: 20px;
+}
+
+.caixa-E{
+    width: 90%;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-F{
+    width: 90%;
+    height: 90%;
+    background-color: #D3D3D3;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
